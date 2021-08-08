@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartSchoolCore</name>
+    </assembly>
+    <members>
+        <member name="T:SmartSchoolCore.V1.Controllers.AlunoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.#ctor(SmartSchoolCore.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            Versão 1 do meu Controller de Alunos 
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.GetRegister">
+            <summary>
+            Método responsável por retonar apenas um único AlunoDTO.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um Aluno por meio do Código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.Post(SmartSchoolCore.V1.Dtos.AlunoDto)">
+            <summary>
+            Metodo Adicionar
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.Put(System.Int32,SmartSchoolCore.V1.Dtos.AlunoDto)">
+            <summary>
+            Metodo Update
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V1.Controllers.AlunoController.Delete(System.Int32)">
+            <summary>
+            Metodo Deletar
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SmartSchoolCore.V1.Controllers.ProfessorController">
+            <summary>
+            Versão 1 do meu Controller de Professores
+            </summary>
+        </member>
+        <member name="T:SmartSchoolCore.V2.Controllers.AlunoController">
+            <summary>
+            Versão 2 do meu Controller de Alunos 
+            </summary>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.#ctor(SmartSchoolCore.Data.IRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.Get">
+            <summary>
+            Método responsável para retornar todos os meus alunos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.GetById(System.Int32)">
+            <summary>
+            Método responsável por retornar apenas um Aluno por meio do Código ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.Post(SmartSchoolCore.V1.Dtos.AlunoDto)">
+            <summary>
+            Metodo Adicionar
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.Put(System.Int32,SmartSchoolCore.V1.Dtos.AlunoDto)">
+            <summary>
+            Metodo Update
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartSchoolCore.V2.Controllers.AlunoController.Delete(System.Int32)">
+            <summary>
+            Metodo Deletar
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
